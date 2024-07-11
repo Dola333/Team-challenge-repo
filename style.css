@@ -4,3 +4,139 @@
     font-family: "PT Serif", serif;
 }
 
+.header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.header-heading {
+    width: 278px;
+height: 47px;
+padding-top: 110px;
+padding-left: 243px;
+gap: 0px;
+opacity: 0px;
+font-family:"PT Serif", serif ;
+font-size: 32px;
+font-weight: 700;
+line-height: 47.7px;
+letter-spacing: -0.045em;
+text-align: left;
+width: 50%;
+
+}
+
+.header-info {
+    width: 50%;
+}
+
+
+.header-info > h3 {
+    width: 117px;
+height: 27px;
+padding-top: 110px;
+
+gap: 0px;
+opacity: 0px;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+color: #000000;
+
+}
+
+.header-info > p {
+    width: 439px;
+height: 87px;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+padding-top: 15px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.main-container {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    margin-top: 150px;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-bottom: 100px;
+}
+
+
+.items > img {
+    width: 238px;
+height: 341px;
+top: 330px;
+left: 901px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.name {
+    width: 117px;
+height: 27px;
+top: 686px;
+left: 240px;
+gap: 0px;
+opacity: 0px;
+font-family: "Poppins";
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+color: #000000;
+
+}
+
+.title {
+    width: 102px;
+height: 16px;
+padding-right: 290px;
+padding-top: 100px;
+
+gap: 0px;
+opacity: 0px;
+transform: rotate(-90deg);
+font-family:"PT Serif", serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.9px;
+text-align: left;
+color: #000000;
+
+}
+
+.red {
+    padding-top: 60px;
+}
+
+.names {
+    width: 128px;
+height: 27px;
+top: 791px;
+left: 571px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+color: #000000;
+
+}
+
