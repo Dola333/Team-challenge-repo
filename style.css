@@ -69,10 +69,12 @@ opacity: 0px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 50px;
-    margin-top: 150px;
-    padding-left: 10%;
+    margin-top: 50px;
+    padding-left: 11%;
     padding-right: 5%;
-    margin-bottom: 100px;
+
+    margin-bottom: 150px;
+   
 }
 
 
@@ -131,12 +133,176 @@ top: 791px;
 left: 571px;
 gap: 0px;
 opacity: 0px;
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 18px;
 font-weight: 600;
 line-height: 27px;
 text-align: left;
 color: #000000;
+
+}
+
+
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    color: #A9A9A9;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: center;
+
+}
+
+.footer > p > a {
+    font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.07px;
+text-align: center;
+color: #A9A9A9;
+
+
+}
+
+
+
+@media screen and (max-width:375px) {
+
+
+    .section {
+        width: 375px;
+        height: 1406px;
+    }
+
+
+    .header {
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .header-heading {
+        width: 100%;
+        padding: 10px;
+        padding-right: 20px;
+        font-size: 22px;
+        padding-top: 75px;
+        
+        font-weight: 700;
+        color:#000000;
+    }
+
+
+    .header-info > p {
+        font-size: 14px;
+        color:#000000;
+        font-weight: 400;
+        padding: 10px;
+        
+        padding-top: 10px;
+    }
+
+    .header-info > h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000;
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+
+
+    .main-container {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: -70px;
+       
+        padding-left: 1%;
+        padding-right: -400%;
+        margin-bottom: 500px;
+    }
+
+
+    .items > img {
+        width: 129px;
+        height:209.44px;
+    }
+
+    .items {
+        width: 114px;
+height: 247px;
+top: 619px;
+left: 19px;
+gap: 0px;
+opacity: 0px;
+padding-right: 10px;
+
+
+    }
+
+
+    .title {
+        font-size: 10px;
+        padding-right: 140px;
+padding-top: 30px;
+
+    }
+
+
+    .grey {
+        margin-top: 70px;
+    }
+
+ .black {
+    margin-top: 110px;
+ }
+
+
+ .footer {
+    text-align: center;
+    padding-right: 50px;
+    margin-bottom: 5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
